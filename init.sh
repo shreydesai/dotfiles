@@ -12,7 +12,7 @@ git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
 echo
 echo "Installing Tagbar"
-git clone https://github.com/majutsushi/tagbar.git ~/.vim/bundle
+git clone https://github.com/majutsushi/tagbar.git ~/.vim/bundle/tagbar
 
 echo
 echo "Installing zsh-autosuggestions"
