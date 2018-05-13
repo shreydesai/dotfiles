@@ -5,6 +5,7 @@ set term=xterm-256color
 
 " Theme
 colorscheme dracula                                                             
+syntax on
                                                                                 
 " Tabs
 set tabstop=2       " The width of a TAB is set to 4.                           
