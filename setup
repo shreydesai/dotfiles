@@ -1,0 +1,9 @@
+mkdir -p ~/.vim
+mkdir -p ~/.vim/colors
+wget -q https://raw.githubusercontent.com/dracula/vim/master/colors/dracula.vim
+mv dracula.vim ~/.vim/colors/
+cp .vimrc ~/
+echo "setup vim!"
+
+cp .tmux.conf ~/
+echo "setup tmux!"
