@@ -3,7 +3,7 @@ cp .vimrc ~/
 git clone https://github.com/dracula/vim
 mv vim/colors ~/.vim/
 mv vim/autoload ~/.vim/
-mv vim/after ~./vim/
+mv vim/after ~/.vim/
 rm -rf vim
 echo "setup vim!"
 
