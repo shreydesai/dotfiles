@@ -1,7 +1,10 @@
 mkdir -p ~/.vim
 cp .vimrc ~/
-cd ~/.vim
 git clone https://github.com/dracula/vim
+mv vim/colors ~/.vim/
+mv vim/autoload ~/.vim/
+mv vim/after ~./vim/
+rm -rf vim
 echo "setup vim!"
 
 cp .tmux.conf ~/
